@@ -1,0 +1,116 @@
+
+   * {
+    background-color: black; /* Applies a black background color to the entire page */
+    color: #e0a800; /* Ensures text color contrasts with the background */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #b31111;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .todo-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid orange;
+    color: #e0a800;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none; /* Removes default border on buttons */
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .add-btn:hover {
+    background-color: #8124d8;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-item {
+    background: blue;
+    margin: 10px 0;
+    color: #e0a800;
+    padding: 10px;
+    border: none; /* Removes border */
+
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #db2525;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
